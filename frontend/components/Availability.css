@@ -1,0 +1,80 @@
+.availability-container {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.left-panel {
+  flex: 1;
+  max-width: 400px;
+}
+
+.availability-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.availability-form label {
+  font-weight: 600;
+}
+
+.availability-form select,
+.availability-form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.availability-form button {
+  cursor: pointer;
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.availability-form button:hover {
+  background-color: #005bb5;
+}
+
+.delete-btn {
+  background-color: #f44336 !important;
+  margin-top: 0.5rem;
+}
+
+.delete-btn:hover {
+  background-color: #ba000d !important;
+}
+
+.two-week-entries {
+  margin-top: 2rem;
+}
+
+.two-week-entries ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.two-week-entries li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.right-panel {
+  flex: 1;
+  max-width: 500px;
+}
+
+.availability-dot {
+  display: block;
+}
+.selected-date {
+  margin-top: 1rem;
+  font-size: 1rem;
+}

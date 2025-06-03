@@ -1,0 +1,17 @@
+.dashboard-flex {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap; /* responsive stacking */
+}
+
+.map-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.booking-container {
+  flex: 1;
+  min-width: 300px;
+}
